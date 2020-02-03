@@ -77,7 +77,7 @@ you're done: you have submitted your answer.
 
 + Don't be surprised if the results are all negative. The car calculations 
 are total costs, so they're naturally negative, and the solar panels don't 
-generate enough electricity to cover their costs. Real projects often 
+generate enough electricity to cover their costs. Real solar projects often 
 involve tax credits, which are not included here and would make the 
 calculation more favorable.
 
