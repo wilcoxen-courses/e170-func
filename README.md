@@ -77,8 +77,9 @@ you're done: you have submitted your answer.
 
 + Don't be surprised if the results are all negative. The car calculations 
 are total costs, so they're naturally negative, and the solar panels don't 
-generate enough electricity to cover their costs (real projects often 
-involve tax credits, which make the calculation more favorable.
+generate enough electricity to cover their costs. Real projects often 
+involve tax credits, which are not included here and would make the 
+calculation more favorable.
 
 + If you're feeling ambitious, you can do the calculations at the end with 
 a loop over a list consisting of the names of the input files.
