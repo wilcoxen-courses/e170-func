@@ -63,9 +63,9 @@ rate `r` and a list of payments `cashflow`, and does the following:
     1. After the loop completes, the function should return `val`.
 
 1. After the functions are defined, `npv.py` should compute and print the 
-NPV of the cash flow in each of the three files. The print statement should 
-give the name of the input file and then the NPV rounded to the nearest
-integer. 
+NPV of the cash flow in each of the three files using an interest rate of
+5 percent. The print statement should give the name of the input file and 
+then the NPV rounded to the nearest integer. 
 
 ### Submitting
 
