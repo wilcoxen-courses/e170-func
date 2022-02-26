@@ -24,7 +24,7 @@ The overall approach will be to create two functions, one that reads in a cash f
 
     1. Loops through the file line by line doing the following:
 
-        1. Splits the line on spaces using `split()`.
+        1. Splits the line on whitespace using `split()`.
 
         1. Creates a new dictionary called `new_pmt` with two attributes: `t`, which should be set to the numerical value of the first item on the line (the year) using the `int()` call, and `amt`, which should be set to the numerical value of the second item on the line using the `float()` call.
 
@@ -36,7 +36,7 @@ The overall approach will be to create two functions, one that reads in a cash f
 
     1. Creates a variable called `val` and sets it to 0.
 
-    1. Loops through `cashflow` and for each payment does the following:
+    1. Loops through `cashflow` using `payment` as the loop variable. For each `payment`, the loop should do the following:
 
         1. Uses the values of the payment's `t` and `amt` attributes to compute the PV of the payment using the interest rate `r`.
 
