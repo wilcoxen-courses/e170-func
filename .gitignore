@@ -33,5 +33,3 @@ makefile
 *.pkl
 *.zip
 *.csv
-
-!states.csv
