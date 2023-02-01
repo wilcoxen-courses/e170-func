@@ -40,7 +40,7 @@ The overall approach will be to create two functions, one that reads in a cash f
 
         1. Use the values of the payment's `t` and `amt` attributes to compute the PV of the payment using the interest rate `r`.
 
-        1. Adds the result to `val`
+        1. Add the result to `val`
 
     1. After the loop completes, the function should return `val`.
 
