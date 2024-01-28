@@ -1,8 +1,10 @@
-#! /bin/python3
-#  Spring 2020 (PJW)
+"""
+demo.py
+Spring 2020 PJW
 
-#  Define a function that computes the sum of squares of a 
-#  list of numbers and returns the result.
+Define a function that computes the sum of squares of a 
+list of numbers and returns the result.
+"""
 
 def sumsq(values):
     total = 0
