@@ -54,4 +54,4 @@ Once you're happy with everything and have committed all of the changes to your 
 
 + Don't be surprised if the results are all negative. The car calculations are total costs, so they're naturally negative, and the solar panels don't generate enough electricity to cover their costs. Real solar projects often involve tax credits, which are not included here and would make the calculation more favorable.
 
-+ If you're feeling ambitious, you can do the calculations at the end with a loop over a list consisting of the names of the input files.
++ It would be a best-practice to do the calculations at the end with a loop over a list consisting of the names of the input files. It's not required but you might want to try setting it up that way.
