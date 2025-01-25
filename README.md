@@ -16,27 +16,27 @@ Your finished repository should include one new file: **npv.py**, a script that 
 
 The overall approach will be to create two functions, one that reads in a cash flow from a file and returns it as a list of payments with dates, and one that computes the NPV of a list of payments. Then the functions will be applied to the three input files.
 
-1. Define a function called `read_cashflow` that accepts one parameter, `filename`, and then does the following:
+1. Define a function called `read_cashflow` that accepts one string parameter, `filename`, and returns a list. Use type hinting in the definition. Within the function, do the following:
 
-    1. Creates an empty list called `payments`.
+    1. Create an empty list called `payments`.
 
-    1. Opens the file whose name is given by `filename`.
+    1. Open the file whose name is given by `filename`.
 
-    1. Loops through the file line by line doing the following:
+    1. Loop through the file line by line doing the following:
 
-        1. Splits the line on whitespace using `split()`.
+        1. Split the line on whitespace using `split()`.
 
-        1. Creates a new dictionary called `new_pmt` with two attributes: `t`, which should be set to the numerical value of the first item on the line (the year) using the `int()` call, and `amt`, which should be set to the numerical value of the second item on the line using the `float()` call.
+        1. Create a new dictionary called `new_pmt` with two attributes: `t`, which should be set to the numerical value of the first item on the line (the year) using the `int()` call, and `amt`, which should be set to the numerical value of the second item on the line using the `float()` call.
 
-        1. Appends `new_pmt` to `payments`
+        1. Append `new_pmt` to `payments`
 
     1. After the loop completes, the function should close the file and return `payments`.
 
-1. Define a function called `npv` that accepts two parameters, an interest rate `r` and a list of payments in variable `cashflow`, and does the following:
+1. Define a function called `npv` that accepts two parameters, an interest rate `r` (a float) and a list of payments in variable `cashflow`, and returns a float. As before, use type hinting in the definition. Within the function, do the following:
 
-    1. Creates a variable called `val` and sets it to 0.
+    1. Create a variable called `val` and sets it to 0.
 
-    1. Loops through `cashflow` using `payment` as the loop variable. For each `payment`, the loop should do the following:
+    1. Loop through `cashflow` using `payment` as the loop variable. For each `payment`, the loop should do the following:
 
         1. Use the values of the payment's `t` and `amt` attributes to compute the PV of the payment using the interest rate `r`.
 
