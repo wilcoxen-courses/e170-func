@@ -14,7 +14,7 @@ Your finished repository should include one new file: **npv.py**, a script that 
 
 ## Instructions
 
-The overall approach will be to create two functions, one that reads in a cash flow from a file and returns it as a list of payments with dates, and one that computes the NPV of a list of payments. Then the functions will be applied to the three input files.
+The overall approach will be to create two functions, one that reads in a cash flow from a file and returns it as a list of payments with dates, and one that computes the NPV of a list of payments. Following that, the functions will be applied to the three input files.
 
 1. Define a function called `read_cashflow` that accepts one string parameter, `filename`, and returns a list. Use type hinting in the definition. Within the function, do the following:
 
@@ -32,9 +32,9 @@ The overall approach will be to create two functions, one that reads in a cash f
 
     1. After the loop completes, the function should close the file and return `payments`.
 
-1. Define a function called `npv` that accepts two parameters, an interest rate `r` (a float) and a list of payments in variable `cashflow`, and returns a float. As before, use type hinting in the definition. Within the function, do the following:
+1. Define a function called `npv` that accepts two parameters, a float `r` giving an interest rate in decimal form (e.g., 0.02 rather than 2 for two percent) and a list of payments in variable `cashflow`, and returns a float. As before, use type hinting in the definition. Within the function, do the following:
 
-    1. Create a variable called `val` and sets it to 0.
+    1. Create a variable called `val` and set it to 0.
 
     1. Loop through `cashflow` using `payment` as the loop variable. For each `payment`, the loop should do the following:
 
