@@ -24,7 +24,7 @@ The overall approach will be to create two functions, one that reads in a cash f
 
     1. Loop through the file line by line doing the following:
 
-        1. Split the line on whitespace using `split()`.
+        1. Split the line on whitespace using `.split()`.
 
         1. Create a new dictionary called `new_pmt` with two attributes: `t`, which should be set to the numerical value of the first item on the line (the year) using the `int()` call, and `amt`, which should be set to the numerical value of the second item on the line using the `float()` call.
 
